@@ -30,5 +30,10 @@
     "jasmine-core": "^2.3.4",
     "karma": "^0.12.37",
     "karma-jasmine": "^0.2.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    //"test": "mocha",
+    "postinstall": "bower install" // && grunt build"
   }
 }
